@@ -1,0 +1,1 @@
+docker build --network host -t tunnel_proxy:0.01 .
