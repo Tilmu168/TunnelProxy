@@ -57,3 +57,10 @@ def read_ip(self):
     proxy_list = resp.get("data", {}).get("proxy_list", [])
     return proxy_list
 ```
+
+# 使用方法
+- 安装docker、python3、redis
+- 生成docker镜像 ```sh build.sh```
+- 生成docker容器 ```sh dockerrun.sh```
+- 安装Python依赖 ```pip install -r requirements.txt```
+- 运行Python文件 ```python3 ProxyManager.py```
